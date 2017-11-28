@@ -1,1 +1,2 @@
-exports.login = require('./login.js');
+exports.result = require('./result');
+exports.sitedetail = require('./sitedetail');

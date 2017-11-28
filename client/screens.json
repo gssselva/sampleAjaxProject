@@ -1,14 +1,8 @@
 {
   "id": "app",
-  "name": "sampleajaxproject",
-  "startScreen": "app.blank",
+  "name": "FlexAPIOnly",
+  "startScreen": "app.sitedetail",
   "screens": [
-    {
-      "id": "blank",
-      "name": "BLANK",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank"
-    },
     {
       "id": "menu",
       "name": "menu",
@@ -20,6 +14,27 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "result",
+      "name": "result",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank",
+      "model": "result"
+    },
+    {
+      "id": "details",
+      "name": "details",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank",
+      "model": "details"
+    },
+    {
+      "id": "sitedetail",
+      "name": "sitedetail",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank",
+      "model": "sitedetails"
     }
   ],
   "sourceAppId": "_blank",

@@ -6,15 +6,6 @@ angular.module('app').config(function ($stateProvider) {
         templateProvider: function (app) {
             return app.templateProvider('app');
         }
-    }).state('app.blank', {
-        views: {
-            app: {
-                controller: 'app_blank',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.blank');
-                }
-            }
-        }
     }).state('app.menu', {
         views: {
             app: {
@@ -30,6 +21,33 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_multiselect',
                 templateProvider: function (app) {
                     return app.templateProvider('app.multiselect');
+                }
+            }
+        }
+    }).state('app.result', {
+        views: {
+            app: {
+                controller: 'app_result',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.result');
+                }
+            }
+        }
+    }).state('app.details', {
+        views: {
+            app: {
+                controller: 'app_details',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.details');
+                }
+            }
+        }
+    }).state('app.sitedetail', {
+        views: {
+            app: {
+                controller: 'app_sitedetail',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.sitedetail');
                 }
             }
         }

@@ -1,1 +1,81 @@
-{}
+{
+  "result": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "list": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "details": {
+              "type": "action"
+            },
+            "email": {
+              "type": "string"
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  },
+  "details": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "sitedetails": {
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
+      },
+      "Email": {
+        "type": "string"
+      }
+    }
+  },
+  "sitedetails": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "sitedetails": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "value": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "measure": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    }
+  }
+}

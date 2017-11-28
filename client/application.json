@@ -1,8 +1,14 @@
 {
-  "name": "sampleajaxproject",
+  "name": "FlexAPIOnly",
   "description": "",
   "defaultLayout": "phone-portrait",
-  "previewToken": "83803803",
-  "uiCommonVersion": "5.2.1",
-  "creatorId": "gssselva"
+  "previewToken": "37139801",
+  "uiCommonVersion": "5.0.3",
+  "creatorId": "admin",
+  "id": "flexrestapi",
+  "previewImageURL": "/previews/37139801-flexrestapi/app/sitedetail.png",
+  "isVersioned": true,
+  "creatorName": "PowWow Admin",
+  "sdks": [],
+  "githubRepo": "https://github.com/gssbthir/flexrestapi"
 }
