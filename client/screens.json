@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "FlexAPIOnly",
-  "startScreen": "app.sitedetail",
+  "startScreen": "app.result",
   "screens": [
     {
       "id": "menu",

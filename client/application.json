@@ -5,10 +5,10 @@
   "previewToken": "37139801",
   "uiCommonVersion": "5.0.3",
   "creatorId": "admin",
-  "id": "flexrestapi",
-  "previewImageURL": "/previews/37139801-flexrestapi/app/sitedetail.png",
+  "id": "sampleajaxproject",
+  "previewImageURL": "/previews/37139801-sampleajaxproject/app/sitedetail.png",
   "isVersioned": true,
   "creatorName": "PowWow Admin",
   "sdks": [],
-  "githubRepo": "https://github.com/gssbthir/flexrestapi"
+  "githubRepo": "https://github.com/gssselva/sampleAjaxProject"
 }
