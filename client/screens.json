@@ -1,6 +1,6 @@
 {
   "id": "app",
-  "name": "FlexAPIOnly",
+  "name": "sampleajaxproject",
   "startScreen": "app.result",
   "screens": [
     {
